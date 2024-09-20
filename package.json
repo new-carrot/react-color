@@ -22,6 +22,7 @@
     "clean-lib": "rm -rf lib && mkdir lib",
     "clean-es": "rm -rf es && mkdir es",
     "prepublish": "npm run lib && npm run es",
+    "prepare": "npm run prepublish",
     "docs": "npm run docs-server",
     "docs-server": "node ./scripts/docs-server",
     "docs-dist": "node ./scripts/docs-dist",
